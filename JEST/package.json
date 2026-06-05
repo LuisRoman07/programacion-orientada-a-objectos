@@ -1,0 +1,29 @@
+{
+  "name": "jest-crud-usuarios",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "ts-node src/server.ts",
+    "test": "jest --runInBand --forceExit"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20.12.12",
+    "@types/supertest": "^6.0.2",
+    "jest": "^29.7.0",
+    "supertest": "^7.2.2",
+    "ts-jest": "^29.4.11"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/test/**/*.test.ts"
+    ]
+  }
+}
